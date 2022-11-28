@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+    position: relative;
+    background: #f0f0f0;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5vw;
+}
+
+.toggle-btn{
+    width: 20px;
+    height: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-btn span{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #979797;
+}
+
+.toggle-btn span:nth-child(1){
+    top: 0;
+}
+
+.toggle-btn span:nth-child(3){
+    top: 100%;
+}
+
+.logo{
+    height: 30px;
+    margin: -10px 30px 0;
+}
+
+.search-box{
+    position: relative;
+    max-width: 500px;
+    width: 50%;
+    height: 35px;
+    display: flex;
+}
+
+.search-bar{
+    width: 85%;
+    height: 100%;
+    border: 2px solid #dbdbdb;
+    padding: 0 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.search-btn{
+    width: 15%;
+    height: 100%;
+    background: #f0f0f0;
+    border: 2px solid #dbdbdb;
+    padding: 5px 0;
+    border-left: none;
+}
+
+.search-btn img{
+    height: 100%;
+}
+
+.user-options{
+    height: 35px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.user-options .icon{
+    height: 80%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.user-dp{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-dp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.player-container
+{
+    display: grid;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+    grid-template-columns: 70% 28%;
+    /* border: 1px solid red; */
+}
+.search-card
+{
+    display: grid;
+    grid-template-columns: 43% 55%;
+    justify-content: center;
+    margin-top: 5px;
+}
+.thumbnail-cont img
+{
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+.title2
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.title-cont
+{
+    padding: 2px 10px;
+}
+.channel-name
+{
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+#tags
+{
+   margin-top: 20px;
+    color: #065FD4;
+    font-size: 12px;
+}
+#video-title
+{
+    padding-top: 10px;
+    font-weight: 100;
+    font-size: 20px;
+}
+#views
+{
+    padding-top: 10px;
+    color: grey;
+    font-size: 14px;
+}
+
+.views-likes
+{
+    padding-top: 15px;
+}
+.likes-span
+{
+    float: right;
+    font-size: 16px;
+}
+.likes-span .icons
+{
+    margin-bottom: -5px;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.channel-info
+{
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: 8% 80% 12%;
+}
+.channel-info  #channel-logo
+{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.channel-info #subsribe
+{
+    background-color: #CC0000;
+    float: right;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px ;
+    border: none;
+}
+#channel-title
+{
+    font-weight: bold;
+}
+#desc
+{
+    font-weight: lighter;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 50px;
+}

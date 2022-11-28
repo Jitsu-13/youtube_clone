@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Home Page</title>
+    <link rel="icon" href="Images/youtube-play-icon.png" />
+    <link rel="stylesheet" href="CSS/index.css" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img onclick="showData()" src="Images/logo.PNG" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search" id="search">
+            <button class="search-btn"><img src="Images/search.PNG" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="Images/video.PNG" class="icon" alt="">
+            <img src="Images/grid.PNG" class="icon" alt="">
+            <img src="Images/bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="Images/profile-pic.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="Images/home.PNG" alt="">home</a>
+        <a href="#" class="links"><img src="Images/explore.PNG" alt="">explore</a>
+        <a href="#" class="links"><img src="Images/subscription.PNG" alt="">subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="Images/library.PNG" alt="">library</a>
+        <a href="#" class="links"><img src="Images/history.PNG" alt="">history</a>
+        <a href="#" class="links"><img src="Images/your-video.PNG" alt="">your video</a>
+        <a href="#" class="links"><img src="Images/watch-later.PNG" alt="">watch leater</a>
+        <a href="#" class="links"><img src="Images/liked video.PNG" alt="">like video</a>
+        <a href="#" class="links"><img src="Images/show more.PNG" alt="">show more</a>
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+        <button onclick="searchTrending()" class="filter-options active">all</button>
+        <button onclick="searchTrending()" class="filter-options">CSS</button>
+        <button onclick="searchTrending()" class="filter-options">web development</button>
+        <button onclick="searchTrending()" class="filter-options">python</button>
+        <button onclick="searchTrending()" class="filter-options">entertainment</button>
+        <button onclick="searchTrending()" class="filter-options">marvel</button>
+        <button onclick="searchTrending()" class="filter-options">javascript</button>
+        <button onclick="searchTrending()" class="filter-options">artificial intelligence</button>
+        <button onclick="searchTrending()" class="filter-options">machine learning</button>
+        <button onclick="searchTrending()" class="filter-options">trending</button>
+    </div>
+    <!-- videos -->
+    <div class="home-page-container">
+   
+    </div>
+    <div id="serach-video-container">
+      
+    </div>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video player Page</title>
+    <link rel="icon" href="../Images/youtube-play-icon.png" />
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <link rel="stylesheet" href="../CSS/individual_video.css" >
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img onclick="location.href = '../index.html'" src="../Images/logo.PNG" class="logo">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search" id="search">
+            <button class="search-btn"><img src="../Images/search.PNG" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="../Images/video.PNG" class="icon" alt="">
+            <img src="../Images/grid.PNG" class="icon" alt="">
+            <img src="../Images/bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="../Images/profile-pic.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="player-container">
+        <div class="player">
+            <iframe id="video-player" width="100%" height="550px" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;" allowfullscreen></iframe>
+            <label id="tags"></label>
+            <h3 id="video-title"></h3>
+            <div class="views-likes">
+                <span id="views"></span>
+                <span class="likes-span">
+                    <label>
+                        <span class="iconify icons" data-icon="bx:bx-like"></span>
+                        <label id="likes"></label>
+                        <span class="iconify icons" data-icon="bx:bx-dislike"></span>
+                        <label id="dislikes"></label>
+                        <span class="iconify icons" data-icon="bx:bx-share" data-flip="horizontal"></span>
+                        <label>SHARE</label>
+                        <span class="iconify icons" data-icon="ic:round-save-alt"></span>
+                        <label>SAVE</label>
+                        <span class="iconify icons" data-icon="bi:three-dots"></span>
+                    </label>
+                </span>
+            </div>
+            <br>
+            <hr>
+            <div class="channel-info">
+                <div>
+                    <span>
+                        <img id="channel-logo">
+                    </span>
+                </div>
+                <div>
+                    <p id="channel-title"></p>
+                    <p id="desc"></p>
+                </div>
+                <div>
+                    <button id="subsribe">SUBSCRIBE</button>
+                </div>
+            </div>
+            <hr>
+            <br>
+            <div>
+                <span><label id="comments"></label><label> Comments</label></span>
+                <span style="margin-left: 20px; font-size: 30px; margin-bottom: -10px;" class="iconify" data-icon="clarity:sort-by-line"></span>
+                <label>SORT BY</label>
+            </div>
+        </div>
+        <div class="right-nav" >
+
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="../JS/individual_video.js"></script>
