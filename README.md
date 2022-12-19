@@ -1,6 +1,5 @@
 # youtube-clone
-  ![image](https://user-images.githubusercontent.com/90475607/145075107-c636aa99-a7b1-4603-959b-e5f51e059e19.png)
-  
-![image](https://user-images.githubusercontent.com/90475607/145075208-70c22cbe-f65a-4940-92d6-207728266351.png)
 
-![image](https://user-images.githubusercontent.com/90475607/145075287-65390b97-679f-4a09-a755-3e618b1ac6c1.png)
+![1](https://user-images.githubusercontent.com/107523890/208374162-56da611f-3a04-4dd5-aeb3-ce53d1ce2ba0.png)
+![2](https://user-images.githubusercontent.com/107523890/208374169-fb86146f-cd9e-47c6-9eda-074a59dd473d.png)
+![3](https://user-images.githubusercontent.com/107523890/208374181-74bbe790-41f7-4cc5-8351-bc6c838b74fe.png)
